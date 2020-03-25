@@ -31,10 +31,7 @@ $(function() {
 			required: "Please enter your name",
 			minlength: "Your name must be at least 2 characters long"
 		},
-		address: "Please enter your address",
-		phone: {
-			required: "Please provide a valid phone number"
-		},		
+		address: "Please enter your address",	
 		email: "Please enter a valid email address",
 		password: {
 			required: "Please provide a password",
