@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Front-End Form Validation using jQuery</title>
+        <meta charset="UTF-8"/>
+        <link rel="icon" type="image/x-icon" href="images/favicon.png"/>
+        <link href='http://fonts.googleapis.com/css?family=Bitter' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.1/dist/jquery.validate.js"></script>
+    </head>
+
+    <body>
+
+    <div class="validation__form-parent">
+        <h1>Sign Up</h1>
+        <form id="validation__form" method="POST" action="">
+            <div class="section"><span>1</span>Name & Address</div>
+            <div class="inner-wrap">
+                <label>Name <input id="#user__name" type="text" name="name" /></label>
+                <label>Address <textarea id="#address" name="address"></textarea></label>
+            </div>
+        
+            <div class="section"><span>2</span>Email & Phone</div>
+            <div class="inner-wrap">
+                <label>Email Address <input id="#email" type="email" name="email" /></label>
+                <label>Phone Number <input id="#phone" type="text" name="phone" /></label>
+            </div>
+        
+            <div class="section"><span>3</span>Passwords</div>
+                <div class="inner-wrap">
+                <label>Password <input id="#password" type="password" name="password" /></label>
+                <label>Confirm Password <input id="#password__confirm" type="password" name="password" /></label>
+            </div>
+            <div class="button-section">
+                <input type="submit" name="submit" value="SUBMIT" />
+               </div>
+        </form>
+        </div>
+
+
+    <script type="text/javascript" src="./external.js"></script>
+    </body>
+</html>
